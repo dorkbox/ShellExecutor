@@ -27,11 +27,8 @@ class ShellAsyncExecutor extends ShellExecutor {
      */
     public static
     boolean run(String executableName, String... args) {
-        ShellAsyncExecutor shell = new ShellAsyncExecutor();
-        shell.setExecutable(executableName);
-        shell.addArguments(args);
-
-        return shell.start() == 0;
+        throw new RuntimeException(
+                "This project has been deprecated for a more fully functional, and improved version via the Dorkbox ProcessExecutor");
     }
 
     /**
@@ -44,19 +41,14 @@ class ShellAsyncExecutor extends ShellExecutor {
      */
     public static
     boolean runShell(String executableName, String... args) {
-        ShellAsyncExecutor shell = new ShellAsyncExecutor();
-        shell.setExecutable(executableName);
-        shell.addArguments(args);
-        shell.executeAsShellCommand();
-
-        return shell.start() == 0;
+        throw new RuntimeException(
+                "This project has been deprecated for a more fully functional, and improved version via the Dorkbox ProcessExecutor");
     }
 
     @Override
     public
     int start() {
-        // always have to make sure separate threads are started, otherwise the calling process can hang.
-        createReadWriterThreads();
-        return super.start(false);
+        throw new RuntimeException(
+                "This project has been deprecated for a more fully functional, and improved version via the Dorkbox ProcessExecutor");
     }
 }
