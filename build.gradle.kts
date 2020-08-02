@@ -39,7 +39,7 @@ object Extras {
     // set for the project
     const val description = "Shell and JVM command execution on Linux, MacOS, or Windows for Java 6+"
     const val group = "com.dorkbox"
-    const val version = "1.1"
+    const val version = "2.0"
 
     // set as project.ext
     const val name = "ShellExecutor"
