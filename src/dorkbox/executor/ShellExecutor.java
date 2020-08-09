@@ -37,7 +37,7 @@ import java.util.Map;
 public
 class ShellExecutor {
 
-    static final RuntimeException DEPRECATED_EXCEPTION = new RuntimeException("This project has been deprecated for a more functional and greatly improved version via the Dorkbox ProcessExecutor");
+    static final RuntimeException DEPRECATED_EXCEPTION = new RuntimeException("This project has been deprecated for a more functional and greatly improved version via the Dorkbox Executor");
 
 
     /**

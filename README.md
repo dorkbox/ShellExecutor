@@ -6,6 +6,8 @@ Shell Executor
 
 Shell and JVM command execution on Linux, MacOS, or Windows for Java 6+.
 
+
+### This project has been closed for a more functional and greatly improved version via the [Dorkbox Executor](https://git.dorkbox.com/dorkbox/Executor)
  
 Ironically, there are a considerable number of 'gotchas' when launching shell/JVM processes via Java. This library solves problems with:
 1. Redirecting in/out/err streams correctly
